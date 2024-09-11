@@ -1,3 +1,32 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "" # the name of your site, e.g. ACME Corp.
+title: "EXIT Business Library"
+navLinks:
+   - "Business Models": business_models
+   - "Pitch Decks": pitch_decks
+   - "Profiles": profiles
+   - "VC & Financing": venture_capital
+
+navLinks:
+   - "Frameworks": frameworks
+   - "Pitching & Modeling": pitching
+   - "Profiles": profiles
+   - "VC & Finance": vc_and_finance
+
+content_dir: "library_content"
+md_exts: [.md, .mkd, .mdwn, .mdown, .mdtxt, .mdtext, .markdown]
+
+#collections:
+#  business_models:
+#    output: true
+#  pitch_decks:
+#    output: true
+#  pitch_decks_NO_OUTPUT:
+#    output: false
+#  profiles:
+#    output: true
+#  venture_capital:
+#    output: true#
+
+#collections_dir: lib_content

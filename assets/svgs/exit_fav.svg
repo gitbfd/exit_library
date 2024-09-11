@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" viewBox="-130.32715 -3.4023438 260 260" width="260" height="260">
+  <defs/>
+  <g id="Canvas_2" stroke-dasharray="none" stroke-opacity="1" stroke="none" fill="none" fill-opacity="1">
+    <title>Canvas 2</title>
+    <g id="Canvas_2_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_14">
+        <rect x="-130.32715" y="-3.4023438" width="260" height="260" fill="#0029db" fill-opacity="0"/>
+      </g>
+      <g id="Graphic_21">
+        <title>X</title>
+        <path d="M 19.265625 112.78142 L 52.535156 61.980634 L 22.38672 15.429853 L 45.36328 15.429853 L 64.88672 46.707197 L 84.01172 15.429853 L 106.78906 15.429853 L 76.50781 62.7111 L 109.77734 112.78142 L 86.07031 112.78142 L 64.48828 79.11345 L 42.839844 112.78142 Z" fill="black"/>
+      </g>
+      <g id="Graphic_22">
+        <title>E</title>
+        <path d="M -98.80389 112.78142 L -98.80389 15.429853 L -26.6203 15.429853 L -26.6203 31.898603 L -79.14764 31.898603 L -79.14764 53.480634 L -30.272643 53.480634 L -30.272643 69.88298 L -79.14764 69.88298 L -79.14764 96.37907 L -24.760925 96.37907 L -24.760925 112.78142 Z" fill="black"/>
+      </g>
+      <g id="Graphic_23">
+        <title>I</title>
+        <rect x="-71.646484" y="138.31657" width="19.65625" height="97.35156" fill="black"/>
+      </g>
+      <g id="Graphic_24">
+        <title>T</title>
+        <path d="M 54.89258 235.66813 L 54.89258 154.78532 L 26.00586 154.78532 L 26.00586 138.31657 L 103.36914 138.31657 L 103.36914 154.78532 L 74.54883 154.78532 L 74.54883 235.66813 Z" fill="black"/>
+      </g>
+    </g>
+  </g>
+</svg>

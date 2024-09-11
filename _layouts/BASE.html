@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    {% assign fav_path = '/assets/favicons' %}
+    <link rel="apple-touch-icon" sizes="180x180"    href="{{fav_path}}/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{fav_path}}/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{fav_path}}/favicon-16x16.png">
+    <link rel="manifest"                            href="{{fav_path}}/site.webmanifest">
+    <link rel="mask-icon"                           href="{{fav_path}}/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" type="image/x-icon" href="/assets/svgs/edwardsE.svg">
+    <link rel="stylesheet" href="{{ "assets/css/bs-5.3.3--CSS/dist/css/bootstrap.min.css" | relative_url }}">
+    <title>{{ page.title }}</title>
+
+    <style type="text/css">
+      :root, [data-bs-theme=light] {
+        --bs-font-sans-serif: "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      }
+      main{
+        margin-bottom:80px;
+        margin-top: 30px;
+      }
+      @media (min-width: 0px) {
+        main{
+          padding: 0px 2vw;
+        }
+      }
+      @media (min-width: 850px) {main{padding: 0px calc((104vw - 850px)/2);}}
+      main a{
+        text-decoration:none;
+        color: #1a0dab;
+        /*margin: 2px 10px;*/
+      }
+      main a:hover{
+        text-decoration:underline;
+      }
+      main a:visited{
+        color: #681da8;
+      }
+
+  .infoLast4{
+    background-color: lightgrey;
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+    </style>
+
+  </head>
+  <body id="baseBody">
+{% include  ui/headers/bsNavbar/exitNavbar.md %}
+    <main id="baseMain">
+{{ content }}
+    </main>
+  </body>
+    <!-- <script type="text/javascript" src="{{ "assets/js/bootstrap.bundle.js" | relative_url }}"></script> -->
+    <!-- <script type="text/javascript" src="{{ "assets/js/bootstrapNoFactory.bundle.js" | relative_url }}"></script> -->
+    <script type="text/javascript" src="{{ "assets/js/bs-5.3.3--JS/dist/js/bootstrap.bundle.min.js" | relative_url }}"></script>
+</html>

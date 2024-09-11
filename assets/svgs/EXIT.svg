@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="96 91 499.3021 194.23438" width="499.3021" height="194.23438">
+  <defs/>
+  <g id="Canvas_1" stroke-dasharray="none" fill="none" fill-opacity="1" stroke-opacity="1" stroke="none">
+    <title>Canvas 1</title>
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_4">
+        <text transform="translate(101 96)" fill="black">
+          <tspan font-family="Arial" font-weight="bold" font-size="160" fill="black" x="0" y="145" xml:space="preserve">E</tspan>
+        </text>
+      </g>
+      <g id="Graphic_5">
+        <text transform="translate(252.5 96)" fill="black">
+          <tspan font-family="Arial" font-weight="bold" font-size="160" fill="black" x="0" y="145" xml:space="preserve">X</tspan>
+        </text>
+      </g>
+      <g id="Graphic_6">
+        <text transform="translate(403.33333 96)" fill="black">
+          <tspan font-family="Arial" font-weight="bold" font-size="160" fill="black" x="0" y="145" xml:space="preserve">I</tspan>
+        </text>
+      </g>
+      <g id="Graphic_7">
+        <text transform="translate(492.5677 96)" fill="black">
+          <tspan font-family="Arial" font-weight="bold" font-size="160" fill="black" x="0" y="145" xml:space="preserve">T</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

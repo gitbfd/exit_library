@@ -1,0 +1,1 @@
+https://www.reidhoffman.org/linkedin-pitch-to-greylock/
