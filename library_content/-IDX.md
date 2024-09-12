@@ -55,7 +55,7 @@ title: Exit Library
 
 <br><br>
 
-### "*Newest Items*" list coming soon.
+### "*Newest Items*" list (sitewide sorted by date) coming soon.
 
  * _In the meantime, use the nav above to view content._
 
