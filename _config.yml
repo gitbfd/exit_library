@@ -1,13 +1,12 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+#url: "https://gitbfd.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/exit_library" # the subpath of your site, e.g. /blog
 title: "EXIT Business Library"
-navLinks:
-   - "Business Models": business_models
-   - "Pitch Decks": pitch_decks
-   - "Profiles": profiles
-   - "VC & Financing": venture_capital
 
+#navLinks:
+#   - "Business Models": business_models
+#   - "Pitch Decks": pitch_decks
+#   - "Profiles": profiles
+#   - "VC & Financing": venture_capital
 navLinks:
    - "Frameworks": frameworks
    - "Pitching & Modeling": pitching

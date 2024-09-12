@@ -70,8 +70,8 @@
 <header class="sticky-top eddysNav">
   <nav class="navbar navbar-expand-md bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/">
-        <img class="exitSvg" src="{{ SVG_PATH | relative_url }}">
+      <a class="navbar-brand" href="{{ '/' | relative_url }}">
+        <img class="exitSvg" src="{{ SVG_PATH  | relative_url }}">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -91,7 +91,7 @@
             <a 
               class="nav-link {{ACTV1}}" 
               {{ACTV2}} 
-              href="/{{ nLinkPath }}"
+              href="{{ nLinkPath  | relative_url }}"
               >
              {{ nLinkName | upcase}}
             </a>

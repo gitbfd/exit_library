@@ -4,15 +4,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     {% assign fav_path = '/assets/favicons' %}
-    <link rel="apple-touch-icon" sizes="180x180"    href="{{fav_path}}/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{fav_path}}/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{fav_path}}/favicon-16x16.png">
-    <link rel="manifest"                            href="{{fav_path}}/site.webmanifest">
-    <link rel="mask-icon"                           href="{{fav_path}}/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180"    href="{{fav_path | relative_url}}/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{fav_path | relative_url}}/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{fav_path | relative_url}}/favicon-16x16.png">
+    <link rel="manifest"                            href="{{fav_path | relative_url}}/site.webmanifest">
+    <link rel="mask-icon"                           href="{{fav_path | relative_url}}/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <link rel="icon" type="image/x-icon" href="/assets/svgs/edwardsE.svg">
-    <link rel="stylesheet" href="{{ "assets/css/bs-5.3.3--CSS/dist/css/bootstrap.min.css" | relative_url }}">
+    <link rel="icon" type="image/x-icon" href="{{ 'assets/svgs/exit_favi.svg' | relative_url}}">
+    <link rel="stylesheet" href="{{ 'assets/css/bs-5.3.3--CSS/dist/css/bootstrap.min.css' | relative_url }}">
     <title>{{ page.title }}</title>
 
     <style type="text/css">
@@ -58,5 +58,5 @@
   </body>
     <!-- <script type="text/javascript" src="{{ "assets/js/bootstrap.bundle.js" | relative_url }}"></script> -->
     <!-- <script type="text/javascript" src="{{ "assets/js/bootstrapNoFactory.bundle.js" | relative_url }}"></script> -->
-    <script type="text/javascript" src="{{ "assets/js/bs-5.3.3--JS/dist/js/bootstrap.bundle.min.js" | relative_url }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/bs-5.3.3--JS/dist/js/bootstrap.bundle.min.js' | relative_url }}"></script>
 </html>

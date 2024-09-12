@@ -29,7 +29,7 @@
 
     {%- else -%}
 
- * [{{HDR_TEXT}}]({{DIR_OBJ.url}})
+ * [{{HDR_TEXT}}]({{DIR_OBJ.url | relative_url }})
 
     {%- endif -%}
 
@@ -63,12 +63,12 @@
 {%- comment -%}<!-- static_file is .markdown  -->{%- endcomment -%}
   {%- if site.md_exts contains DIR_OBJ.extname -%}
 
- * [{{HDR_TEXT}}]({{DIR_OBJ.path}})<br>
+ * [{{HDR_TEXT}}]({{DIR_OBJ.path | relative_url }})
 
 {%- comment -%}<!-- static_file is all else (PDF, JPG, PNG, etc)  -->{%- endcomment -%}
   {%- else (other static_file) -%}
 
- * [{{HDR_TEXT}} ({{fileExt | remove:'.'| upcase}})]({{DIR_OBJ.path}})<br>
+ * [{{HDR_TEXT}} ({{fileExt | remove:'.'| upcase}})]({{DIR_OBJ.path | relative_url }})
 
   {%- endif -%}
 
